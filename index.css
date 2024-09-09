@@ -1,0 +1,93 @@
+/* Permet de center le placeholder */
+::placeholder{
+    text-align: center;
+}
+
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+#form-task{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5vw;
+    box-shadow: 1vw -1vh gray;
+    gap: 5%;
+}
+
+#form-task > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span{
+    color: red;
+    display: none;
+}
+
+#textField{
+    border-radius: 25px;
+    flex-basis: 70%;
+    padding: 1vh;
+    font-size: 30px;
+}
+
+#btn-task{
+    border-radius: 25px;
+    padding: 2vh;
+}
+
+#btn-task:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+#tasks{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+#tasks > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding-bottom: 2vh;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 2vh;
+}
+
+ul > li {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 80%;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 1vw;
+}
