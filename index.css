@@ -31,9 +31,17 @@ body{
     align-items: center;
 }
 
-span{
+#error-message{
     color: red;
     display: none;
+}
+
+.checked{
+    background-color: green;
+}
+
+.unchecked{
+    background-color: yellow;
 }
 
 #textField{
